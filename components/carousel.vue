@@ -54,7 +54,7 @@
         cols="12"
         sm="3"
       >
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="embed-responsive embed-responsive-16by9 mb-2">
           <iframe
             class="embed-responsive-item"
             src="https://www.youtube.com/embed/Kps3tn_g2KA"
@@ -67,7 +67,7 @@
         cols="12"
         sm="3"
       >
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="embed-responsive embed-responsive-16by9 mb-2">
           <iframe
             class="embed-responsive-item"
             src="https://www.youtube.com/embed/lGPZTKcCoEA"
@@ -79,7 +79,7 @@
         cols="12"
         sm="3"
       >
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="embed-responsive embed-responsive-16by9 mb-2">
           <iframe
             class="embed-responsive-item"
             src="https://www.youtube.com/embed/6lMv8f-PvFA"
