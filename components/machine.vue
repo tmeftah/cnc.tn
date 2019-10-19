@@ -20,24 +20,9 @@
     </b-row>
     <b-row>
       <b-col>
-        <b-carousel
-          id="
-          carousel-1"
-          class="test"
-          :interval="6000"
-          img-width="800"
-          img-height="480"
-          controls
-          indicators
-        >
-          <!-- Text slides with image -->
-
-          <b-carousel-slide img-src="/cncpremium-ST--1024x568.png" />
-          <b-carousel-slide img-src="/cncpremium-ST--1024x568.png" />
-        </b-carousel>
+        <b-img-lazy src="/cncpremium-ST--1024x568.png" />
       </b-col>
     </b-row>
-
     <b-row>
       <b-col cols="12">
         <p class="bordertop" />
