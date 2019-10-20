@@ -194,8 +194,7 @@
     <div class="mt-5" />
     <b-row>
       <b-col
-        cols="12"
-        sm="6"
+        cols="6"
         md="3"
         class="pb-3"
       >
@@ -210,8 +209,7 @@
         </b-card>
       </b-col>
       <b-col
-        cols="12"
-        sm="6"
+        cols="6"
         md="3"
         class="pb-3"
       >
@@ -226,8 +224,7 @@
         </b-card>
       </b-col>
       <b-col
-        cols="12"
-        sm="6"
+        cols="6"
         md="3"
         class="pb-3"
       >
@@ -242,8 +239,7 @@
         </b-card>
       </b-col>
       <b-col
-        cols="12"
-        sm="6"
+        cols="6"
         md="3"
         class="pb-3"
       >
@@ -260,66 +256,62 @@
     </b-row>
     <b-row class="mt-4 ">
       <b-col
-        cols="12"
-        sm="6"
+        cols="6"
         md="3"
         class="pb-3"
       >
         <b-card
-          img-src="/material/mdf.jpg"
-          img-alt="mdf"
+          img-src="/material/plexiglass.jpg"
+          img-alt="plexiglass"
           img-top
         >
           <b-card-text>
-            mdf
+            plexiglass
           </b-card-text>
         </b-card>
       </b-col>
       <b-col
-        cols="12"
-        sm="6"
+        cols="6"
         md="3"
         class="pb-3"
       >
         <b-card
           img-src="/material/hetre.jpg"
-          img-alt="hetre"
+          img-alt="alu_composite"
           img-top
         >
           <b-card-text>
-            hetre
+            alu_composite
           </b-card-text>
         </b-card>
       </b-col>
       <b-col
-        cols="12"
-        sm="6"
+        cols="6"
         md="3"
         class="pb-3"
       >
         <b-card
-          img-src="/material/pvc.jpg"
-          img-alt="pvc"
+          img-src="/material/alu.jpg"
+          img-alt="alu"
           img-top
         >
           <b-card-text>
-            pvc
+            alu
           </b-card-text>
         </b-card>
       </b-col>
       <b-col
-        cols="12"
-        sm="6"
+        cols="6"
         md="3"
         class="pb-3"
       >
         <b-card
-          img-src="/material/forex.jpg"
-          img-alt="forex"
+          img-src="/material/acier_doux.jpg"
+          img-alt="acier_doux"
           img-top
         >
           <b-card-text>
-            forex
+            acier_doux
           </b-card-text>
         </b-card>
       </b-col>
