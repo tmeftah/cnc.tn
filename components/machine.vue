@@ -63,11 +63,11 @@
             <b-img-lazy
               src="/icons/vis_a_bille.png"
               max-width="100%"
-              height="100"
+              height="85"
               class="pr-4"
             />
-            <div class="text-justify">
-              <h2><strong>Transmission par vis à billes</strong></h2>
+            <div class="text-break">
+              <h3><strong>Transmission par vis à billes</strong></h3>
 
               Quatre vis à billes <strong>d’origine Allemandes</strong> assurent un déplacement <strong>précis</strong> et sans <strong>aucune vibration</strong> de la machine même dans les conditions de coupe les plus difficiles.
               <br>
@@ -85,11 +85,11 @@
             <b-img-lazy
               src="/icons/table_coupe.png"
               max-width="100%"
-              height="100"
+              height="85"
               class="pr-4"
             />
-            <div class="text-justify">
-              <h2><strong>Table de travail/coupe</strong></h2>
+            <div class="text-break">
+              <h3><strong>Table de travail/coupe</strong></h3>
 
               Dimensions de table (standard) : <strong> 3000 X 2200 mm</strong>
               <br>
@@ -105,11 +105,11 @@
             <b-img-lazy
               src="/icons/boitier.png"
               max-width="100%"
-              height="100"
+              height="85"
               class="pr-4"
             />
-            <div class="text-justify">
-              <h2><strong>Armoire</strong></h2>
+            <div class="text-break">
+              <h3><strong>Armoire</strong></h3>
 
               Alimentation industrielle robuste <strong>76VDC-1000W</strong>.
               <br>
@@ -131,16 +131,20 @@
             <b-img-lazy
               src="/icons/broche.gif"
               max-width="100%"
-              height="100"
+              height="85"
               class="pr-4"
             />
             <div class="text-justify">
-              <h2><strong>Électrobroches</strong></h2>
-              <strong>Broche synchrone Allemande</strong> Broche synchrone Allemande (1.8 kw ,23 500 tr/min) avec l’option d’ajout d’un changeur d’outils pneumatique en kit (pince ER11) qui se monte directement sur la broche pour une cadence de travail modérée.
-              <br>
-              <strong>Broche asynchrone Italienne à haute fréquence</strong> jusqu’à la puissance de 9kw (24 000 rpm) avec l’option de <strong>roulements en céramique</strong> pour une forte cadence de travail.
-              <br>
-              <strong> Broche asynchrone Italienne à haute fréquence avec changeur d’outils </strong> : conseillée pour une cadence de travail industriel en série.
+              <h3 class="text-break">
+                <strong>Électrobroches</strong>
+              </h3>
+              <p>
+                <strong>Broche synchrone Allemande</strong> Broche synchrone Allemande (1.8 kw ,23 500 tr/min) avec l’option d’ajout d’un changeur d’outils pneumatique en kit (pince ER11) qui se monte directement sur la broche pour une cadence de travail modérée.
+                <br>
+                <strong>Broche asynchrone Italienne à haute fréquence</strong> jusqu’à la puissance de 9kw (24 000 rpm) avec l’option de <strong>roulements en céramique</strong> pour une forte cadence de travail.
+                <br>
+                <strong> Broche asynchrone Italienne à haute fréquence avec changeur d’outils </strong> : conseillée pour une cadence de travail industriel en série.
+              </p>
             </div>
           </b-col>
         </b-row>
@@ -150,11 +154,11 @@
             <b-img-lazy
               src="/icons/fixation.png"
               max-width="100%"
-              height="100"
+              height="85"
               class="pr-4"
             />
-            <div class="text-justify">
-              <h2><strong>Fixation sur table</strong></h2>
+            <div class="text-break">
+              <h3><strong>Fixation sur table</strong></h3>
 
               T-slot (standard)
               Table aspirante.
@@ -168,11 +172,11 @@
             <b-img-lazy
               src="/icons/logiciel.png"
               max-width="100%"
-              height="100"
+              height="85"
               class="pr-4"
             />
-            <div class="text-justify">
-              <h2><strong>Logiciel</strong></h2>
+            <div class="text-break">
+              <h3><strong>Logiciel</strong></h3>
               <strong>Mach3 version française</strong> (sans licence*)
               <br>
               <b-link
