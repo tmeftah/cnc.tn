@@ -1,18 +1,19 @@
 <template>
-  <div class="container">
+  <div class="container" style="font-family: Poppins;">
     <Nav />
     <nuxt />
     <Footer />
   </div>
 </template>
 <script>
-import Nav from './partials/nav'
-import Footer from './partials/footer'
-export default {
-  components: {
-    Nav, Footer
+  import Nav from './partials/nav'
+  import Footer from './partials/footer'
+  export default {
+    components: {
+      Nav,
+      Footer
+    }
   }
-}
 </script>
 
 <style>
