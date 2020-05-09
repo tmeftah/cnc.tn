@@ -25,7 +25,7 @@
         </p>
       </b-col>
       <b-col cols="12" lg="7">
-        <b-img-lazy fluid src="/cncpremium-ST--1024x568.png" />
+        <b-img-lazy fluid src="/cncpremium-ST--618x342.png" />
       </b-col>
     </b-row>
 
