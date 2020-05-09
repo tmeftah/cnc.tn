@@ -1,9 +1,9 @@
 <template>
-  <div class="container" style="font-family: Poppins;">
+  <b-container style="font-family: Arial">
     <Nav />
     <nuxt />
     <Footer />
-  </div>
+  </b-container>
 </template>
 <script>
   import Nav from './partials/nav'

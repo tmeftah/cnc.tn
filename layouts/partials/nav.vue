@@ -28,6 +28,10 @@
           class="text-uppercase"
         >{{$t('ref_link')}}</b-nav-item>
         <b-nav-item
+          :to="localePath('/contact')"
+          class="text-uppercase"
+        >{{$t('contact')}}</b-nav-item>
+        <b-nav-item
           v-for="locale in availableLocales"
           :key="locale.code"
           :to="switchLocalePath(locale.code)"
