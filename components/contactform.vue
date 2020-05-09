@@ -2,7 +2,7 @@
   <b-container class="mt-2">
     <h1>{{$t('contact_header')}}</h1>
     <p>{{$t('contact_text')}}</p>
-    <b-form name="contact" method="POST" data-netlify="true">
+    <b-form action="POST" data-netlify="true">
       <b-row>
         <b-col>
           <b-form-group
@@ -65,7 +65,7 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col>
+        <b-col cols="12">
           <b-form-group>
             <b-form-textarea
               id="textarea"
@@ -75,6 +75,9 @@
               required
             ></b-form-textarea>
           </b-form-group>
+        </b-col>
+        <b-col col="12">
+          <div data-netlify-recaptcha="true"></div>
         </b-col>
         <b-col cols="12">
           <b-form-group>
