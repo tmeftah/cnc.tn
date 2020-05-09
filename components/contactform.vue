@@ -4,7 +4,7 @@
     <p>{{$t('contact_text')}}</p>
     <b-form
       method="POST"
-      action="localePath('/contact')"
+      :action="localePath('/contact')"
       netlify
       netlify-honeypot="bot-field"
     >
@@ -82,12 +82,7 @@
           </b-form-group>
         </b-col>
         <b-col cols="12">
-          // Hidden input to check for bots
-          <input
-            type="hidden"
-            name="form-name"
-            value="contactus"
-          />
+          <input type="hidden" name="form-name" value="contactus" />
         </b-col>
         <b-col cols="12">
           <b-form-group>
