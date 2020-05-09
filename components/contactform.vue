@@ -2,7 +2,7 @@
   <b-container class="mt-2">
     <h1>{{$t('contact_header')}}</h1>
     <p>{{$t('contact_text')}}</p>
-    <b-form action="POST" data-netlify="true">
+    <b-form action="POST" netlify netlify-honeypot="bot-field" hidden>
       <b-row>
         <b-col>
           <b-form-group
