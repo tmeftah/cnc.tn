@@ -7,19 +7,47 @@
     sticky
     @scroll.native="handleScroll"
   >
-    <b-navbar-brand to="/" exact>
+    <b-navbar-brand :to="localePath('/')" exact>
       <img src="/logo.png" alt="Société Energie Tunisie" />
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse" />
 
     <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
-        <b-nav-item to="/" exact>ENERGIE | more than optimized</b-nav-item>
-        <b-nav-item to="/machine" exact>CNC PREMIUM ST</b-nav-item>
-        <b-nav-item to="/references" exact>Références | Clients</b-nav-item>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item
+          :to="localePath('/machine')"
+          class="text-uppercase"
+        >{{$t('products')}}</b-nav-item>
+        <b-nav-item
+          :to="localePath('/service')"
+          class="text-uppercase"
+        >{{$t('service')}}</b-nav-item>
+        <b-nav-item
+          :to="localePath('/references')"
+          class="text-uppercase"
+        >{{$t('ref_link')}}</b-nav-item>
+        <b-nav-item
+          v-for="locale in availableLocales"
+          :key="locale.code"
+          :to="switchLocalePath(locale.code)"
+          exact
+        >{{$t('lang')}}</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
+    <b-modal id="modal-1" title="BootstrapVue">
+      <b-list-group>
+        <b-list-group-item
+          v-for="locale in $i18n.locales"
+          :key="locale.code"
+          :to="switchLocalePath(locale.code)"
+        >
+          <country-flag :country="locale.country" size="normal" />
+          {{ locale.name }}
+        </b-list-group-item>
+      </b-list-group>
+      <p class="my-4"></p>
+    </b-modal>
   </b-navbar>
 </template>
 <script>
@@ -27,6 +55,11 @@
     data() {
       return {
         scroll: ''
+      }
+    },
+    computed: {
+      availableLocales() {
+        return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
       }
     },
 
@@ -56,16 +89,16 @@
     -ms-transition: height 0.3s ease-in-out;
     transition: height 0.3s ease-in-out;
   }
+  .nav-item {
+  }
 
   .nav-link.nuxt-link-active {
-    border-bottom: 2px solid #0f3c6c;
-    margin-right: 1em;
+    border-bottom: 3px solid #0f3c6c;
   }
   .nav-link {
-    border-bottom: 2px solid #b1b2a933;
-    margin-right: 1em;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+    border-bottom: 3px solid #b1b2a933;
+    padding: 0.5em 1.3em !important;
+    margin: 0em 1em;
   }
   @media (min-width: 992px) {
     .navbar.scroll {

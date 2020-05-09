@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <b-row class="mt-5">
+  <div class="container mt-5">
+    <b-row>
       <b-col>
         <div class="d-flex">
-          <h1 class="display-4 text-uppercase">
-            CNC PREMIUM PRO
-          </h1>
+          <h1 class="display-4 text-uppercase">CNC PREMIUM PRO</h1>
           <b-img
             class="pl-3 mt-2"
             :src="'/flag-tn.jpg'"
@@ -13,9 +11,7 @@
             height="50"
           />
         </div>
-        <p class="h4">
-          Fabrication 100% Tunisienne
-        </p>
+        <p class="h4">{{$t('fabrication_100')}}</p>
       </b-col>
     </b-row>
     <b-row>
@@ -44,21 +40,13 @@
       </b-col>
     </b-row>
     <b-row>
-      <b-col
-        cols="12"
-        class="mb-4"
-      >
-        <p class="h2">
-          CNC PREMIUM ST en vidéos
-        </p>
-        <p class="h4">
-          Consulter les vidéos mises sur notre site ou regarder les toutes sur notre chaîne youtube
-        </p>
+      <b-col cols="12" class="mb-4">
+        <p class="h2">CNC PREMIUM ST en vidéos</p>
+        <p
+          class="h4"
+        >Consulter les vidéos mises sur notre site ou regarder les toutes sur notre chaîne youtube</p>
       </b-col>
-      <b-col
-        cols="12"
-        sm="3"
-      >
+      <b-col cols="12" sm="3">
         <div class="embed-responsive embed-responsive-16by9 mb-2">
           <iframe
             class="embed-responsive-item"
@@ -68,10 +56,7 @@
         </div>
       </b-col>
 
-      <b-col
-        cols="12"
-        sm="3"
-      >
+      <b-col cols="12" sm="3">
         <div class="embed-responsive embed-responsive-16by9 mb-2">
           <iframe
             class="embed-responsive-item"
@@ -80,10 +65,7 @@
           />
         </div>
       </b-col>
-      <b-col
-        cols="12"
-        sm="3"
-      >
+      <b-col cols="12" sm="3">
         <div class="embed-responsive embed-responsive-16by9 mb-2">
           <iframe
             class="embed-responsive-item"
@@ -92,10 +74,7 @@
           />
         </div>
       </b-col>
-      <b-col
-        cols="12"
-        sm="3"
-      >
+      <b-col cols="12" sm="3">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe
             class="embed-responsive-item"
@@ -109,23 +88,21 @@
 </template>
 
 <script>
-export default {
-
-}
+  export default {}
 </script>
 
 <style >
-.bordertop {
-  border-top: 1px solid #d8d8d8;
-  -webkit-box-shadow: 0px 0px 54px -24px #000000bf;
-  -moz-box-shadow: 0px 0px 54px -24px #000000bf;
-  box-shadow: 0px 0px 54px -24px #000000bf;
-  padding-top: 2em;
-}
-.carousel-indicators li {
-  background-color: #2d4764;
-}
-.carousel-indicators .active {
-  background-color: #0f3c6c;
-}
+  .bordertop {
+    border-top: 1px solid #d8d8d8;
+    -webkit-box-shadow: 0px 0px 54px -24px #000000bf;
+    -moz-box-shadow: 0px 0px 54px -24px #000000bf;
+    box-shadow: 0px 0px 54px -24px #000000bf;
+    padding-top: 2em;
+  }
+  .carousel-indicators li {
+    background-color: #2d4764;
+  }
+  .carousel-indicators .active {
+    background-color: #0f3c6c;
+  }
 </style>

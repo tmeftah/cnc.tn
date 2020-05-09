@@ -1,5 +1,3 @@
 <template>
-  <div>
-    <h1>references</h1>
-  </div>
+  <h1>references</h1>
 </template>
