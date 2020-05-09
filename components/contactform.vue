@@ -2,7 +2,12 @@
   <b-container class="mt-2">
     <h1>{{$t('contact_header')}}</h1>
     <p>{{$t('contact_text')}}</p>
-    <b-form action="POST" netlify netlify-honeypot="bot-field" hidden>
+    <b-form
+      method="POST"
+      action="localePath('/contact')"
+      netlify
+      netlify-honeypot="bot-field"
+    >
       <b-row>
         <b-col>
           <b-form-group
@@ -77,7 +82,12 @@
           </b-form-group>
         </b-col>
         <b-col cols="12">
-          <div data-netlify-recaptcha="true"></div>
+          // Hidden input to check for bots
+          <input
+            type="hidden"
+            name="form-name"
+            value="contactus"
+          />
         </b-col>
         <b-col cols="12">
           <b-form-group>
