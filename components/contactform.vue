@@ -2,95 +2,6 @@
   <b-container class="mt-2">
     <h1>{{$t('contact_header')}}</h1>
     <p>{{$t('contact_text')}}</p>
-    <!-- <b-form
-      name="contactus"
-      method="POST"
-      :action="localePath('/contact')"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
-      <b-row>
-        <b-col>
-          <input type="hidden" name="form-name" value="contactus" />
-          <b-form-group
-            id="label-firstname"
-            label="Firstname *"
-            label-for="firstname"
-          >
-            <b-form-input
-              id="firstname"
-              type="text"
-              required
-              placeholder="Please enter your firstname *"
-            ></b-form-input>
-          </b-form-group>
-        </b-col>
-        <b-col>
-          <b-form-group
-            id="label-lastname"
-            label="Lastname *"
-            label-for="lastname"
-          >
-            <b-form-input
-              id="lastname"
-              type="text"
-              required
-              placeholder="Please enter your lastname *"
-            ></b-form-input>
-          </b-form-group>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-          <b-form-group
-            id="label-email"
-            label="Email *"
-            label-for="email"
-            description="We'll never share your email with anyone else."
-          >
-            <b-form-input
-              id="email"
-              type="email"
-              required
-              placeholder="Please enter your email *"
-            ></b-form-input>
-          </b-form-group>
-        </b-col>
-        <b-col>
-          <b-form-group
-            id="label-name"
-            label="Please specify your need *"
-            label-for="select"
-          >
-            <b-form-select
-              id="select"
-              v-model="selected"
-              :options="options"
-              required
-            ></b-form-select>
-          </b-form-group>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col cols="12">
-          <b-form-group>
-            <b-form-textarea
-              id="textarea"
-              placeholder="Please, leave us a message."
-              rows="3"
-              max-rows="6"
-              required
-            ></b-form-textarea>
-          </b-form-group>
-        </b-col>
-
-        <b-col cols="12">
-          <b-form-group>
-            <b-button variant="success" type="submit">Send message</b-button>
-          </b-form-group>
-        </b-col>
-      </b-row>
-    </b-form>-->
     <form
       id="contactus"
       method="post"
@@ -200,12 +111,8 @@
         </div>
         <div class="row">
           <div class="col-md-12">
-            <p class="text-muted">
-              <strong>*</strong> These fields are required. Contact form template by
-              <a
-                href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form"
-                target="_blank"
-              >Bootstrapious</a>.
+            <p class="text-muted mt-2">
+              <strong>*</strong> These fields are required.
             </p>
           </div>
         </div>
