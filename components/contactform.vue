@@ -5,8 +5,8 @@
     <b-form
       method="POST"
       :action="localePath('/contact')"
-      netlify
-      netlify-honeypot="bot-field"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
     >
       <b-row>
         <b-col>
