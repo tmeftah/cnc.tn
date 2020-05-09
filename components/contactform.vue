@@ -76,7 +76,7 @@
             ></b-form-textarea>
           </b-form-group>
         </b-col>
-        <b-col col="12">
+        <b-col cols="12">
           <div data-netlify-recaptcha="true"></div>
         </b-col>
         <b-col cols="12">
