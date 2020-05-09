@@ -14,7 +14,13 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Poppins'
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -42,7 +48,43 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    [
+      'nuxt-i18n',
+      {
+        baseUrl: 'https://cadcam.tn/',
+        seo: false, // see doc and layouts
+
+        locales: [
+          {
+            name: 'Englisch',
+            code: 'en',
+            iso: 'en-EN',
+            country: 'en',
+            file: 'en-EN.json'
+          },
+          {
+            name: 'Francais',
+            code: 'fr',
+            iso: 'fr-FR',
+            country: 'fr',
+            file: 'fr-FR.json'
+          }
+        ],
+        detectBrowserLanguage: {
+          useCookie: true,
+          cookieKey: 'lang'
+        },
+        strategy: 'prefix_except_default',
+        vueI18n: {
+          fallbackLocale: 'fr'
+        },
+
+        langDir: 'lang/',
+        defaultLocale: 'fr',
+        lazy: true
+      }
+    ]
   ],
   /*
    ** Axios module configuration
