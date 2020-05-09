@@ -177,7 +177,7 @@
       </b-col>
     </b-row>
     <div class="mt-5" />
-    <b-row cols="3" cols-lg="6">
+    <b-row cols="2" cols-sm="3" cols-lg="6">
       <b-col class="mb-4 mb-lg-0">
         <b-card
           img-src="/material/mdf.jpg"
