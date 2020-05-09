@@ -3,6 +3,7 @@
     <h1>{{$t('contact_header')}}</h1>
     <p>{{$t('contact_text')}}</p>
     <b-form
+      name="contactus"
       method="POST"
       :action="localePath('/contact')"
       data-netlify="true"
@@ -10,6 +11,7 @@
     >
       <b-row>
         <b-col>
+          <input type="hidden" name="form-name" value="contactus" />
           <b-form-group
             id="label-firstname"
             label="Firstname *"
@@ -81,9 +83,7 @@
             ></b-form-textarea>
           </b-form-group>
         </b-col>
-        <b-col cols="12">
-          <input type="hidden" name="form-name" value="contactus" />
-        </b-col>
+
         <b-col cols="12">
           <b-form-group>
             <b-button variant="success" type="submit">Send message</b-button>
