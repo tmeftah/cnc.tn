@@ -7,13 +7,13 @@
     sticky
     @scroll.native="handleScroll"
   >
-    <b-navbar-brand :to="localePath('/')" exact>
+    <b-navbar-brand :to="localePath('/')" @click="hideCollapse">
       <img src="/logo.png" alt="Société Energie Tunisie" />
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse" />
 
-    <b-collapse id="nav-collapse" is-nav>
+    <b-collapse id="nav-collapse" is-nav v-model="show">
       <b-navbar-nav class="ml-auto">
         <b-nav-item
           :to="localePath('/machine')"
@@ -58,7 +58,8 @@
   export default {
     data() {
       return {
-        scroll: ''
+        scroll: '',
+        show: false
       }
     },
     computed: {
@@ -80,6 +81,11 @@
           this.scroll = 'scroll'
         } else if (window.scrollY < 25) {
           this.scroll = ''
+        }
+      },
+      hideCollapse() {
+        if (this.show) {
+          this.show = false
         }
       }
     }
