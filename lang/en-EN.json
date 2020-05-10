@@ -6,6 +6,18 @@
   "transmission_text": "Four original German ball screws ensure precise and vibration-free movement of the machine even under the most difficult cutting conditions.  The X-axis is equipped with 2 ball screws of 25 mm diameter synchronized by HTD belts and a powerful central motorization.The Y-axis is equipped with a 25 mm diameter ball screw for maximum travel speeds and acceleration and higher cutting forces, The Z-axis is equipped with a ball screw of diameter 16",
   "fabrication_100": "100% Made in Tunisia",
   "contact": "contact",
-  "contact_text": "Are you a carpenter, a young developer or a company?       Do you want to develop your project or your business?       Please send the information as detailed below; the Energie team is there to answer and support you.       Please take your time to fill in the form.",
-  "contact_header": "Please contact us"
+  "contact_text": "Are you a carpenter, a young developer or a company?   </span>   <span class='d-flex mt-3'>   Do you want to develop your project or your business?   </span>   <span class='d-flex mt-3'>    Please send the information as detailed below; the Energie team is there to answer and support you. </span>   <span class='d-flex mt-3'>   Please take your time to fill in the form.</span>",
+  "Firstname": "Firstname",
+  "label_firstname": "Please enter your firstnam",
+  "lastname": "lastname",
+  "label_lastname": "Please enter your lastname",
+  "label_email": "Please enter your email",
+  "need_label": "Please specify your need",
+  "request_quotation": "Request quotation",
+  "request_order_status": "Request order status",
+  "request_copy_of_an_invoice": "Request copy of an invoice",
+  "other": "Other",
+  "label_message": "Your message",
+  "required": "These fields are required",
+  "btn-send-message": "Send"
 }
