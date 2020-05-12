@@ -9,7 +9,7 @@
   "contact_text": "Are you a carpenter, a young developer or a company?   </span>   <span class='d-flex mt-3'>   Do you want to develop your project or your business?   </span>   <span class='d-flex mt-3'>    Please send the information as detailed below; the Energie team is there to answer and support you. </span>   <span class='d-flex mt-3'>   Please take your time to fill in the form.</span>",
   "Firstname": "Firstname",
   "label_firstname": "Please enter your firstnam",
-  "lastname": "lastname",
+  "lastname": "Lastname",
   "label_lastname": "Please enter your lastname",
   "label_email": "Please enter your email",
   "need_label": "Please specify your need",
