@@ -1,38 +1,125 @@
 <template>
   <div class="container mt-5">
     <b-row>
+      <b-col cols="12" lg="7">
+        <b-row>
+          <b-col cols="8">
+            <h5>
+              La première CNC ROUTER fabriquée en Tunisie
+            </h5>
+          </b-col>
+          <b-col cols="12" class="mt-5">
+            <b-img-lazy fluid src="/cncpremium-ST--618x342.png" />
+          </b-col>
+        </b-row>
+      </b-col>
       <b-col cols="12" lg="5">
-        <div class="d-flex">
-          <h1
-            class="text-uppercase"
-            style="font-weight:normal;color:#0b3b6c;  font-size:2.4em;"
-          >CNC PREMIUM ST</h1>
+        <h1
+          class="d-flex justify-content-start "
+          style="font-weight:1000;color:#0b3b6c;"
+        >
+          CNC PREMIUM ST
           <b-img
-            class="pl-3 pt-1 mt-2"
+            class="ml-2"
             :src="'/flag-tn.jpg'"
             alt="Image 1"
             height="30"
+            style="margin-top:-0.5rem;"
           />
-        </div>
-        <p class="mt-2 text-gray">
-          <b>EXTENSIBLE ET POLYVALENTE</b>
-          <br />Cette
-          <strong>CNC ROUTER</strong> est dédiée aux professionnels voulant associer
+        </h1>
+
+        <h3
+          class="d-flex justify-content-center"
+          style="font-weight:700;color:#0b3b6c;"
+        >
+          Extensible & Polyvalente
+        </h3>
+
+        <p class="mt-3" style="font-weight:300">
+          <br />Cette <strong>CNC ROUTER</strong> est dédiée aux professionnels
+          voulant associer
           <strong>la polyvalence</strong>
           à la
           <strong>robustesse</strong> avec possibilité d’options
           <strong>personnalisées</strong>
         </p>
-      </b-col>
-      <b-col cols="12" lg="7">
-        <b-img-lazy fluid src="/cncpremium-ST--618x342.png" />
+
+        <div class="row row-cols-2 mt-1">
+          <div class="col px-0 mt-2" style="border-bottom:2px #ebebeb solid">
+            <div
+              class="col d-inline-flex px-0  py-2"
+              style=" border-right:2px #ebebeb solid"
+            >
+              <span
+                class="material-icons mr-2"
+                style="font-size: 2.5rem; color:#515b66; "
+              >
+                filter_tilt_shift
+              </span>
+              <div class="column ml-3">
+                <h5 class="mb-0">25 MM</h5>
+                <p style="font-size:14px">German ball screws</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col px-0 mt-2" style="border-bottom:2px #ebebeb solid">
+            <div class=" col d-inline-flex py-2">
+              <span
+                class="material-icons mr-2"
+                style="font-size: 2.5rem; color:#515b66; "
+              >
+                rotate_right
+              </span>
+              <div class="column ml-3">
+                <h5 class="mb-1">23.500 RPM</h5>
+                <p style="font-size:14px">Synchrone Spendel</p>
+              </div>
+            </div>
+          </div>
+          <div class="col px-0 mt-2">
+            <div
+              class="col d-inline-flex px-0 py-2"
+              style=" border-right:2px #ebebeb solid"
+            >
+              <span
+                class="material-icons mr-2"
+                style="font-size: 2.2rem; color:#515b66; "
+              >
+                tab_unselected
+              </span>
+              <div class="column ml-3">
+                <h5 class="mb-0">3M X 2.2M</h5>
+                <p style="font-size:14px">
+                  Work table
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col px-0 mt-2">
+            <div class=" col d-inline-flex py-2">
+              <span
+                class="material-icons mr-2"
+                style="font-size: 2.5rem; color:#515b66; "
+              >
+                settings_input_hdmi
+              </span>
+              <div class="column ml-3">
+                <h5 class="mb-0">EtherCAT</h5>
+                <p style="font-size:14px">
+                  Motion controller
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </b-col>
     </b-row>
 
-    <b-row>
+    <b-row class="mt-5">
       <b-col cols="12">
         <b-button
-          class="btn-download float-right"
+          class="btn-download"
           squared
           variant="light"
           size="lg"
@@ -45,7 +132,7 @@
     </b-row>
     <div class="my-5" />
     <!-- 1st Col -->
-    <b-row>
+    <b-row style="margin-top:100px;">
       <b-col cols="12" lg="6">
         <b-row>
           <b-col class="d-flex">
@@ -75,7 +162,8 @@
             <div class="text-justify">
               <h3>
                 <strong>Table de travail/coupe</strong>
-              </h3>Dimensions de table (standard) :
+              </h3>
+              Dimensions de table (standard) :
               <strong>3000 X 2200 mm</strong>
               <br />Dimensions de coupe (standard) :
               <strong>2500 X 1850 X 150 mm</strong>
@@ -95,15 +183,15 @@
             <div class="text-justify">
               <h3>
                 <strong>Armoire</strong>
-              </h3>Alimentation industrielle robuste
-              <strong>76VDC-1000W</strong>.
-              <br />Armoire
-              <strong>Vitrée IP55</strong> avec
-              <strong>ventilation forcée</strong> ,
-              Directeur d’axes
+              </h3>
+              Alimentation industrielle robuste <strong>76VDC-1000W</strong>.
+              <br />Armoire <strong>Vitrée IP55</strong> avec
+              <strong>ventilation forcée</strong> , Directeur d’axes
               <strong>Allemand</strong> supportant
-              <strong>4 axes</strong> (standard) avec commande de vitesse de la broche ,commande aspirateur et un watch dog pour la sécurité.
-              Protection maximale par des fusibles à l’entrée et à la sortie de tous les composants électriques.
+              <strong>4 axes</strong> (standard) avec commande de vitesse de la
+              broche ,commande aspirateur et un watch dog pour la sécurité.
+              Protection maximale par des fusibles à l’entrée et à la sortie de
+              tous les composants électriques.
             </div>
           </b-col>
         </b-row>
@@ -123,12 +211,21 @@
                 <strong>Électrobroches</strong>
               </h3>
               <p>
-                <strong>Broche synchrone Allemande</strong> Broche synchrone Allemande (1.8 kw ,23 500 tr/min) avec l’option d’ajout d’un changeur d’outils pneumatique en kit (pince ER11) qui se monte directement sur la broche pour une cadence de travail modérée.
+                <strong>Broche synchrone Allemande</strong> Broche synchrone
+                Allemande (1.8 kw ,23 500 tr/min) avec l’option d’ajout d’un
+                changeur d’outils pneumatique en kit (pince ER11) qui se monte
+                directement sur la broche pour une cadence de travail modérée.
                 <br />
-                <strong>Broche asynchrone Italienne à haute fréquence</strong> jusqu’à la puissance de 9kw (24 000 rpm) avec l’option de
-                <strong>roulements en céramique</strong> pour une forte cadence de travail.
+                <strong>Broche asynchrone Italienne à haute fréquence</strong>
+                jusqu’à la puissance de 9kw (24 000 rpm) avec l’option de
+                <strong>roulements en céramique</strong> pour une forte cadence
+                de travail.
                 <br />
-                <strong>Broche asynchrone Italienne à haute fréquence avec changeur d’outils</strong> : conseillée pour une cadence de travail industriel en série.
+                <strong
+                  >Broche asynchrone Italienne à haute fréquence avec changeur
+                  d’outils</strong
+                >
+                : conseillée pour une cadence de travail industriel en série.
               </p>
             </div>
           </b-col>
@@ -145,9 +242,8 @@
             <div class="text-break">
               <h3>
                 <strong>Fixation sur table</strong>
-              </h3>T-slot (standard)
-              Table aspirante.
-              Vaccum pads.
+              </h3>
+              T-slot (standard) Table aspirante. Vaccum pads.
             </div>
           </b-col>
         </b-row>
@@ -170,13 +266,15 @@
                 href="http://www.mach3fr.com"
                 target="blank"
                 class="text-muted"
-              >www.mach3fr.com</b-link>
+                >www.mach3fr.com</b-link
+              >
             </div>
           </b-col>
         </b-row>
       </b-col>
     </b-row>
     <div class="mt-5" />
+
     <b-row cols="2" cols-sm="3" cols-lg="6">
       <b-col class="mb-4 mb-lg-0">
         <b-card
@@ -243,7 +341,8 @@
     </b-row>
 
     <div class="mt-5" />
-    <b-row>
+    <h3>Tableau des caractéristiques CNC PREMIUM ST</h3>
+    <b-row class="mt-4">
       <b-col>
         <b-row>
           <b-col>
@@ -309,9 +408,8 @@
                 <tr>
                   <td>Transmission</td>
                   <td>
-                    2 Vis à bille ∅25mm sur l'axe X
-                    1 Vis à bille ∅25mm sur l'axe Y
-                    1 Vis à bille ∅16mm sur l'axe z
+                    2 Vis à bille ∅25mm sur l'axe X 1 Vis à bille ∅25mm sur
+                    l'axe Y 1 Vis à bille ∅16mm sur l'axe z
                   </td>
                 </tr>
                 <tr>
@@ -334,11 +432,17 @@
               <tbody>
                 <tr>
                   <td>Directeur d’axes</td>
-                  <td>Allemand supportant 4 axes ,commandant la vitesse de la broche, l'aspirateur et le watch dog (pour la sécurité).</td>
+                  <td>
+                    Allemand supportant 4 axes ,commandant la vitesse de la
+                    broche, l'aspirateur et le watch dog (pour la sécurité).
+                  </td>
                 </tr>
                 <tr>
                   <td>Drive</td>
-                  <td>3 drives de grande puissance (80VDC-8A) avec système de sécurité intégré (sur et sous-tension, sur-intensité)</td>
+                  <td>
+                    3 drives de grande puissance (80VDC-8A) avec système de
+                    sécurité intégré (sur et sous-tension, sur-intensité)
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -449,38 +553,38 @@
 </template>
 
 <script>
-  export default {}
+export default {}
 </script>
 
-<style >
-  .bordertop {
-    border-top: 1px solid #d8d8d8;
-    -webkit-box-shadow: 0px 0px 54px -24px #000000bf;
-    -moz-box-shadow: 0px 0px 54px -24px #000000bf;
-    box-shadow: 0px 0px 54px -24px #000000bf;
-    padding-top: 2em;
-  }
-  .carousel-indicators li {
-    background-color: #2d4764;
-  }
-  .carousel-indicators .active {
-    background-color: #0f3c6c;
-  }
-  .text-gray {
-    color: #727272;
-  }
-  .btn-download {
-    background: #375d85;
-    padding-top: 0.2rem;
-    color: #fff;
-  }
-  .card-body {
-    background-color: #535352;
-    color: #fff;
-    text-align: center;
-  }
-  .table th {
-    background-color: #d9edf7;
-    color: #0f3c6c;
-  }
+<style>
+.bordertop {
+  border-top: 1px solid #d8d8d8;
+  -webkit-box-shadow: 0px 0px 54px -24px #000000bf;
+  -moz-box-shadow: 0px 0px 54px -24px #000000bf;
+  box-shadow: 0px 0px 54px -24px #000000bf;
+  padding-top: 2em;
+}
+.carousel-indicators li {
+  background-color: #2d4764;
+}
+.carousel-indicators .active {
+  background-color: #0f3c6c;
+}
+.text-gray {
+  color: #727272;
+}
+.btn-download {
+  background: #375d85;
+  padding-top: 0.2rem;
+  color: #fff;
+}
+.card-body {
+  background-color: #535352;
+  color: #fff;
+  text-align: center;
+}
+.table th {
+  background-color: #d9edf7;
+  color: #0f3c6c;
+}
 </style>
