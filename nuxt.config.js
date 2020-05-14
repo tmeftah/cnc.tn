@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'CADCAM Tunsie: Le CNC Spécialiste',
+    title: 'CADCAM Tunsie: Le CNC Spécialist',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
