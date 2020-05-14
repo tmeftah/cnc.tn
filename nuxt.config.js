@@ -22,19 +22,17 @@ export default {
       },
       {
         rel: 'alternate',
-        hreflang='fr',
-        href="https://www.cadcam.tn"
-
+        hreflang: 'fr',
+        href: 'https://www.cadcam.tn'
       },
       {
         rel: 'alternate',
-        hreflang='en',
-        href="https://www.cadcam.tn/en"
-
+        hreflang: 'en',
+        href: 'https://www.cadcam.tn/en'
       },
       {
-        rel="canonical",
-        href="https://www.cadcam.tn"
+        rel: 'canonical',
+        href: 'https://www.cadcam.tn'
       }
     ]
   },
