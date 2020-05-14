@@ -9,7 +9,7 @@
             </h5>
           </b-col>
           <b-col cols="12" class="mt-5">
-            <b-img-lazy fluid src="/cncpremium-ST--618x342.png" />
+            <b-img-lazy fluid src="/cncpremium-ST--618x342.WebP" />
           </b-col>
         </b-row>
       </b-col>

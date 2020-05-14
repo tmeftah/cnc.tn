@@ -27,9 +27,8 @@
           indicators
         >
           <!-- Text slides with image -->
-
-          <b-carousel-slide img-src="/cncpremium-ST--1024x568.png" />
-          <b-carousel-slide img-src="/cncpremium-ST--1024x568.png" />
+          <b-carousel-slide img-src="/cncpremium-ST--1024x568.WebP" />
+          <b-carousel-slide img-src="/cncpremium-ST--1024x568.WebP" />
         </b-carousel>
       </b-col>
     </b-row>
