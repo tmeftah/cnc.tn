@@ -1,5 +1,5 @@
 <template>
-  <b-container style="font-family: Montserrat">
+  <b-container>
     <Nav />
     <nuxt />
     <Footer />
@@ -16,4 +16,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+body,
+html {
+  font-family: 'Cairo';
+}
+</style>
