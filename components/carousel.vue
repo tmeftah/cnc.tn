@@ -47,33 +47,25 @@
         </p>
       </b-col>
       <b-col cols="12" sm="3">
-        <img
-          width="100%"
-          src="https://img.youtube.com/vi/Kps3tn_g2KA/maxresdefault.jpg"
-          alt="video-youtube-cnc-malek-meftah"
-        />
+        <video width="100%" controls poster="v1.jpg">
+          <source src="v1.mp4" type="video/mp4" />
+        </video>
       </b-col>
 
       <b-col cols="12" sm="3">
-        <img
-          width="100%"
-          src="https://img.youtube.com/vi/lGPZTKcCoEA/maxresdefault.jpg"
-          alt="video-youtube-cnc-malek-meftah"
-        />
+        <video width="100%" controls poster="v2.jpg">
+          <source src="v2.mp4" type="video/mp4" />
+        </video>
       </b-col>
       <b-col cols="12" sm="3">
-        <img
-          width="100%"
-          src="https://img.youtube.com/vi/6lMv8f-PvFA/maxresdefault.jpg"
-          alt="video-youtube-cnc-malek-meftah"
-        />
+        <video width="100%" controls poster="v3.jpg">
+          <source src="v3.mp4" type="video/mp4" />
+        </video>
       </b-col>
       <b-col cols="12" sm="3">
-        <img
-          width="100%"
-          src="https://img.youtube.com/vi/Srk1U5s_CFA/maxresdefault.jpg"
-          alt="video-youtube-cnc-malek-meftah"
-        />
+        <video width="100%" controls poster="v4.jpg">
+          <source src="v4.mp4" type="video/mp4;" />
+        </video>
       </b-col>
     </b-row>
   </div>
