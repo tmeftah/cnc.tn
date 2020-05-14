@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'ÉNERGIE | CNC ROUTER TUNISIA',
+    title: 'CADCAM Tunsie: Le CNC Spécialiste',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -19,6 +19,22 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Montserrat'
+      },
+      {
+        rel: 'alternate',
+        hreflang='fr',
+        href="https://www.cadcam.tn"
+
+      },
+      {
+        rel: 'alternate',
+        hreflang='en',
+        href="https://www.cadcam.tn/en"
+
+      },
+      {
+        rel="canonical",
+        href="https://www.cadcam.tn"
       }
     ]
   },
