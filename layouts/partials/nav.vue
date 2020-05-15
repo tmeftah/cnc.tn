@@ -35,7 +35,7 @@
           >{{ $t('lang') }}
           <img
             class="pl-2"
-            :src="locale.country + '.svg'"
+            :src="'/' + locale.code + '.svg'"
             alt="flag"
             width="40"
           />

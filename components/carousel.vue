@@ -47,24 +47,24 @@
         </p>
       </b-col>
       <b-col cols="12" sm="3">
-        <video width="100%" controls poster="v1.jpg">
-          <source src="v1.webm" type="video/webm;" />
+        <video width="100%" controls poster="/v1.jpg">
+          <source src="/v1.webm" type="video/webm;" />
         </video>
       </b-col>
 
       <b-col cols="12" sm="3">
-        <video width="100%" controls poster="v2.jpg">
-          <source src="v2.webm" type="video/webm;" />
+        <video width="100%" controls poster="/v2.jpg">
+          <source src="/v2.webm" type="video/webm;" />
         </video>
       </b-col>
       <b-col cols="12" sm="3">
-        <video width="100%" controls poster="v3.jpg">
-          <source src="v3.webm" type="video/webm;" />
+        <video width="100%" controls poster="/v3.jpg">
+          <source src="/v3.webm" type="video/webm;" />
         </video>
       </b-col>
       <b-col cols="12" sm="3">
-        <video width="100%" controls poster="v4.jpg">
-          <source src="v4.webm" type="video/webm;" />
+        <video width="100%" controls poster="/v4.jpg">
+          <source src="/v4.webm" type="video/webm;" />
         </video>
       </b-col>
     </b-row>
