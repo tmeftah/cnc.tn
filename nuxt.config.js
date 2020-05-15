@@ -106,7 +106,8 @@ export default {
   ],
   sitemap: {
     hostname: 'https://cadcam.tn',
-    gzip: true
+    gzip: true,
+    i18n: 'fr'
   },
   /*
    ** Axios module configuration
