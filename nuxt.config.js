@@ -104,6 +104,10 @@ export default {
     'nuxt-material-design-icons',
     '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://cadcam.tn',
+    gzip: true
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
