@@ -20,5 +20,6 @@
   "other": "Autres",
   "label_message": "Votre message",
   "required": "Ces champs sont obligatoires",
-  "btn-send-message": "Envoyer"
+  "btn-send-message": "Envoyer",
+  "training": "formations"
 }

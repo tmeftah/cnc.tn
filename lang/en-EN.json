@@ -19,5 +19,6 @@
   "other": "Other",
   "label_message": "Your message",
   "required": "These fields are required",
-  "btn-send-message": "Send"
+  "btn-send-message": "Send",
+  "training": "training"
 }
