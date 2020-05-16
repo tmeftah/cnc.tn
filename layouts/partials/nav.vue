@@ -15,46 +15,32 @@
 
     <b-collapse id="nav-collapse" is-nav v-model="show">
       <b-navbar-nav class="ml-auto">
-        <b-nav-item :to="localePath('/machine')" class="text-uppercase">
-          {{ $t('products') }}
+        <b-nav-item
+          v-for="route in routes"
+          :key="route.to"
+          :to="localePath('/' + route.to)"
+          :exact="route.exact"
+          class="text-uppercase"
+        >
+          {{ $t(route.to) }}
         </b-nav-item>
-        <b-nav-item :to="localePath('/service')" class="text-uppercase">
-          {{ $t('service') }}
-        </b-nav-item>
-        <b-nav-item :to="localePath('/references')" class="text-uppercase">
-          {{ $t('ref_link') }}
-        </b-nav-item>
-        <b-nav-item :to="localePath('/contact')" class="text-uppercase">
-          {{ $t('contact') }}
-        </b-nav-item>
+
         <b-nav-item
           v-for="locale in availableLocales"
           :key="locale.code"
           :to="switchLocalePath(locale.code)"
           exact
+          link-classes="no-border"
           >{{ $t('lang') }}
           <img
             class="pl-2"
             :src="'/' + locale.code + '.svg'"
             alt="flag"
-            width="40"
+            width="30"
           />
         </b-nav-item>
       </b-navbar-nav>
     </b-collapse>
-    <!-- <b-modal id="modal-1" title="BootstrapVue">
-      <b-list-group>
-        <b-list-group-item
-          v-for="locale in $i18n.locales"
-          :key="locale.code"
-          :to="switchLocalePath(locale.code)"
-        >
-          <country-flag :country="locale.country" size="normal" />
-          {{ locale.name }}
-        </b-list-group-item>
-      </b-list-group>
-      <p class="my-4"></p>
-    </b-modal> -->
   </b-navbar>
 </template>
 <script>
@@ -62,7 +48,25 @@ export default {
   data() {
     return {
       scroll: '',
-      show: false
+      show: false,
+      routes: [
+        {
+          to: 'machine',
+          exact: false
+        },
+        {
+          to: 'training',
+          exact: false
+        },
+        {
+          to: 'service',
+          exact: false
+        },
+        {
+          to: 'contact',
+          exact: false
+        }
+      ]
     }
   },
   computed: {
@@ -112,6 +116,9 @@ export default {
   border-bottom: 3px solid #b1b2a933;
   padding: 0.5em 1.3em !important;
   margin: 0em 1em;
+}
+.no-border {
+  border: 0;
 }
 @media (min-width: 992px) {
   .navbar.scroll {
