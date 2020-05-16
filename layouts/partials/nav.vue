@@ -20,7 +20,7 @@
           :key="route.to"
           :to="localePath('/' + route.to)"
           :exact="route.exact"
-          class="text-uppercase"
+          class="text-capitalize"
         >
           {{ $t(route.to) }}
         </b-nav-item>
