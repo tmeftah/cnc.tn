@@ -182,12 +182,18 @@
                   :key="index"
                   button
                 >
-                  <b-row cols="1" cols-sm="2">
-                    <b-col class="d-flex">
-                      {{ item.col_left }}
+                  <b-row
+                    cols="1"
+                    cols-sm="2"
+                    class="d-flex justify-content-start"
+                  >
+                    <b-col class="d-flex flex-left pb-2 pb-sm-0">
+                      <b>- {{ item.col_left }}</b>
                     </b-col>
-                    <b-col class="d-flex">
-                      {{ item.col_right }}
+                    <b-col class="d-flex flex-left">
+                      <p>
+                        {{ item.col_right }}
+                      </p>
                     </b-col>
                   </b-row>
                 </b-list-group-item>
@@ -298,22 +304,22 @@ export default {
           icon: '/icons/broche.gif',
           table: [
             {
-              col_left: `Broche synchrone Allemande`,
+              col_left: `Broche synchrone`,
               col_right: '1.8 kw, 23 500 tr/min'
             },
             {
-              col_left: `Broche asynchrone Italienne à haute fréquence`,
+              col_left: `Broche asynchrone à haute fréquence`,
               col_right: `9kw, 24 000 rpm (option de roulements en céramique)`
             },
             {
-              col_left: `Broche asynchrone Italienne à haute fréquence`,
-              col_right: `9kw, 24 000 rpm (option de roulements en céramique + changeur d’outils)`
+              col_left: `Broche asynchrone à haute fréquence`,
+              col_right: `9kw, 24 000 rpm (option de changeur d’outils)`
             }
           ],
           show: false
         },
         {
-          header_text: 'Table de travail/coupe',
+          header_text: 'Table de coupe',
           text: ``,
           icon: '/icons/table_coupe.png',
           table: [
