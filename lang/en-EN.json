@@ -20,5 +20,6 @@
   "label_message": "Your message",
   "required": "These fields are required",
   "btn-send-message": "Send",
-  "training": "training"
+  "training": "training",
+  "contact_header": "Please contact us "
 }
