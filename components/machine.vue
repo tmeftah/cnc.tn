@@ -271,7 +271,6 @@
 export default {
   data() {
     return {
-      text: 'ghgdhnmölm#ü',
       collapses: [
         {
           header_text: 'Transmission',
