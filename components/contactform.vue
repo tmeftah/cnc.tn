@@ -3,7 +3,9 @@
     <h1
       class="text-uppercase"
       style="font-weight:normal;color:#0b3b6c;  font-size:2.4em;"
-    >{{$t('contact_header')}}</h1>
+    >
+      {{ $t('contact_header') }}
+    </h1>
     <b-row class="mt-4">
       <b-col cols="12" lg="4">
         <p
@@ -29,7 +31,7 @@
               <div class="col-md-6">
                 <div class="form-group">
                   <input type="hidden" name="form-name" value="contactus" />
-                  <label for="form_name">{{$t('Firstname')}} *</label>
+                  <label for="form_name">{{ $t('Firstname') }} *</label>
                   <input
                     id="form_name"
                     type="text"
@@ -44,7 +46,7 @@
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="form_lastname">{{$t('lastname')}} *</label>
+                  <label for="form_lastname">{{ $t('lastname') }} *</label>
                   <input
                     id="form_lastname"
                     type="text"
@@ -76,7 +78,7 @@
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="form_need">{{$t('need_label')}} *</label>
+                  <label for="form_need">{{ $t('need_label') }} *</label>
                   <select
                     id="form_need"
                     name="need"
@@ -85,16 +87,16 @@
                     data-error="Please specify your need."
                   >
                     <option value></option>
-                    <option
-                      value="Request quotation"
-                    >{{$t('request_quotation')}}</option>
-                    <option
-                      value="Request order status"
-                    >{{$t('request_order_status')}}</option>
-                    <option
-                      value="Request copy of an invoice"
-                    >{{$t('request_copy_of_an_invoice')}}</option>
-                    <option value="Other">{{$t('other')}}</option>
+                    <option value="Request quotation">{{
+                      $t('request_quotation')
+                    }}</option>
+                    <option value="Request order status">{{
+                      $t('request_order_status')
+                    }}</option>
+                    <option value="Request copy of an invoice">{{
+                      $t('request_copy_of_an_invoice')
+                    }}</option>
+                    <option value="Other">{{ $t('other') }}</option>
                   </select>
                   <div class="help-block with-errors"></div>
                 </div>
@@ -128,7 +130,7 @@
               <div class="col-md-12">
                 <p class="text-muted mt-2">
                   <strong>*</strong>
-                  {{$t('required')}}.
+                  {{ $t('required') }}.
                 </p>
               </div>
             </div>
@@ -252,18 +254,18 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        selected: null,
-        options: [
-          { value: null, text: 'Please select an option' },
-          { value: 'a', text: 'This is First option' },
-          { value: 'b', text: 'Selected Option' },
-          { value: { C: '3PO' }, text: 'This is an option with object value' },
-          { value: 'd', text: 'This one is disabled', disabled: true }
-        ]
-      }
+export default {
+  data() {
+    return {
+      selected: null,
+      options: [
+        { value: null, text: 'Please select an option' },
+        { value: 'a', text: 'This is First option' },
+        { value: 'b', text: 'Selected Option' },
+        { value: { C: '3PO' }, text: 'This is an option with object value' },
+        { value: 'd', text: 'This one is disabled', disabled: true }
+      ]
     }
   }
+}
 </script>
