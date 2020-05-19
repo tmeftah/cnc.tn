@@ -45,7 +45,7 @@
         </p>
 
         <div class="row row-cols-2 mt-1">
-          <div class="col px-0 mt-2" style="border-bottom:2px #ebebeb solid">
+          <div class="col px-0  py-2" style="border-bottom:2px #ebebeb solid">
             <div
               class="col d-inline-flex px-0  py-2"
               style=" border-right:2px #ebebeb solid"
@@ -63,8 +63,8 @@
             </div>
           </div>
 
-          <div class="col px-0 mt-2" style="border-bottom:2px #ebebeb solid">
-            <div class=" col d-inline-flex py-2">
+          <div class="col px-0 py-2 " style="border-bottom:2px #ebebeb solid">
+            <div class=" col d-inline-flex  py-2">
               <span
                 class="material-icons mr-2"
                 style="font-size: 2.5rem; color:#515b66; "
@@ -77,7 +77,7 @@
               </div>
             </div>
           </div>
-          <div class="col px-0 mt-2">
+          <div class="col px-0 mt-4">
             <div
               class="col d-inline-flex px-0 py-2"
               style=" border-right:2px #ebebeb solid"
@@ -96,7 +96,7 @@
               </div>
             </div>
           </div>
-          <div class="col px-0 mt-2">
+          <div class="col px-0 mt-4">
             <div class=" col d-inline-flex py-2">
               <span
                 class="material-icons mr-2"
@@ -117,7 +117,7 @@
     </b-row>
 
     <b-row class="mt-5">
-      <b-col cols="12">
+      <b-col cols="12" class="pl-0">
         <b-button
           class="btn-download"
           squared
@@ -130,152 +130,77 @@
         </b-button>
       </b-col>
     </b-row>
-    <div class="my-5" />
-    <!-- 1st Col -->
-    <b-row style="margin-top:100px;">
-      <b-col cols="12" lg="6">
-        <b-row>
-          <b-col class="d-flex">
-            <b-img-lazy
-              src="/icons/vis_a_bille.png"
-              max-width="100%"
-              height="85"
-              class="pr-4"
-            />
-            <div class="text-justify">
-              <h3>
-                <strong>Transmission par vis à billes</strong>
-              </h3>
-              <p v-html="$t('transmission_text')"></p>
-            </div>
-          </b-col>
-        </b-row>
-        <!--  -->
-        <b-row class="mt-4">
-          <b-col class="d-flex">
-            <b-img-lazy
-              src="/icons/table_coupe.png"
-              max-width="100%"
-              height="85"
-              class="pr-4"
-            />
-            <div class="text-justify">
-              <h3>
-                <strong>Table de travail/coupe</strong>
-              </h3>
-              Dimensions de table (standard) :
-              <strong>3000 X 2200 mm</strong>
-              <br />Dimensions de coupe (standard) :
-              <strong>2500 X 1850 X 150 mm</strong>
-              <br />Des dimensions personnalisées sont possibles
-            </div>
-          </b-col>
-        </b-row>
-        <!--  -->
-        <b-row class="mt-4">
-          <b-col class="d-flex">
-            <b-img-lazy
-              src="/icons/boitier.png"
-              max-width="100%"
-              height="85"
-              class="pr-4"
-            />
-            <div class="text-justify">
-              <h3>
-                <strong>Armoire</strong>
-              </h3>
-              Alimentation industrielle robuste <strong>76VDC-1000W</strong>.
-              <br />Armoire <strong>Vitrée IP55</strong> avec
-              <strong>ventilation forcée</strong> , Directeur d’axes
-              <strong>Allemand</strong> supportant
-              <strong>4 axes</strong> (standard) avec commande de vitesse de la
-              broche ,commande aspirateur et un watch dog pour la sécurité.
-              Protection maximale par des fusibles à l’entrée et à la sortie de
-              tous les composants électriques.
-            </div>
-          </b-col>
-        </b-row>
-      </b-col>
-      <!-- 2d col -->
-      <b-col cols="12" lg="6" class="mt-4 mt-lg-0 pl-lg-5">
-        <b-row>
-          <b-col class="d-flex">
-            <b-img-lazy
-              src="/icons/broche.gif"
-              max-width="100%"
-              height="85"
-              class="pr-4"
-            />
-            <div class="text-justify">
-              <h3 class="text-break">
-                <strong>Électrobroches</strong>
-              </h3>
-              <p>
-                <strong>Broche synchrone Allemande</strong> Broche synchrone
-                Allemande (1.8 kw ,23 500 tr/min) avec l’option d’ajout d’un
-                changeur d’outils pneumatique en kit (pince ER11) qui se monte
-                directement sur la broche pour une cadence de travail modérée.
-                <br />
-                <strong>Broche asynchrone Italienne à haute fréquence</strong>
-                jusqu’à la puissance de 9kw (24 000 rpm) avec l’option de
-                <strong>roulements en céramique</strong> pour une forte cadence
-                de travail.
-                <br />
-                <strong
-                  >Broche asynchrone Italienne à haute fréquence avec changeur
-                  d’outils</strong
-                >
-                : conseillée pour une cadence de travail industriel en série.
-              </p>
-            </div>
-          </b-col>
-        </b-row>
-        <!--  -->
-        <b-row class="mt-4">
-          <b-col class="d-flex">
-            <b-img-lazy
-              src="/icons/fixation.png"
-              max-width="100%"
-              height="85"
-              class="pr-4"
-            />
-            <div class="text-break">
-              <h3>
-                <strong>Fixation sur table</strong>
-              </h3>
-              T-slot (standard) Table aspirante. Vaccum pads.
-            </div>
-          </b-col>
-        </b-row>
-        <!--  -->
-        <b-row class="mt-4">
-          <b-col class="d-flex">
-            <b-img-lazy
-              src="/icons/logiciel.png"
-              max-width="100%"
-              height="85"
-              class="pr-4"
-            />
-            <div class="text-break">
-              <h3>
-                <strong>Logiciel</strong>
-              </h3>
-              <strong>Mach3 version française</strong> (sans licence*)
-              <br />
-              <b-link
-                href="http://www.mach3fr.com"
-                target="blank"
-                class="text-muted"
-                >www.mach3fr.com</b-link
-              >
-            </div>
-          </b-col>
-        </b-row>
+    <b-row class="mt-5">
+      <b-col class="d-flex justify-content-end align-items-center pr-0">
+        <b-button
+          class="mr-2 d-flex align-items-center"
+          @click="openAll"
+          variant="outline-secondary"
+        >
+          <b-icon icon="arrow-down"></b-icon>Open all</b-button
+        >
+        <b-button
+          class="d-flex align-items-center"
+          @click="closeAll"
+          variant="outline-secondary"
+        >
+          <b-icon icon="arrow-up"></b-icon>Close all</b-button
+        >
       </b-col>
     </b-row>
+
+    <b-row class="mt-2">
+      <b-col class="px-0">
+        <b-card
+          v-for="(collapse, index) in collapses"
+          :key="index"
+          no-body
+          class="mb-1"
+          header-class=" text-dark bg-dark"
+        >
+          <b-card-header
+            header-tag="header"
+            role="tab"
+            @click="collapse.show = !collapse.show"
+          >
+            <div class="d-flex">
+              <b-img
+                block
+                :src="collapse.icon"
+                max-width="100%"
+                height="40"
+                class="pr-4 d-flex"
+              />
+              <h3 class="d-flex">{{ collapse.header_text }}</h3>
+            </div>
+          </b-card-header>
+          <b-collapse v-model="collapse.show" id="accordion-1" role="tabpanel">
+            <b-card-body class="text-dark bg-white pt-3">
+              <b-list-group flush>
+                <b-list-group-item
+                  v-for="(item, index) in collapse.table"
+                  :key="index"
+                  button
+                >
+                  <b-row cols="1" cols-sm="2">
+                    <b-col class="d-flex">
+                      {{ item.col_left }}
+                    </b-col>
+                    <b-col class="d-flex">
+                      {{ item.col_right }}
+                    </b-col>
+                  </b-row>
+                </b-list-group-item>
+              </b-list-group>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+      </b-col>
+    </b-row>
+
     <div class="mt-5" />
 
-    <b-row cols="2" cols-sm="3" cols-lg="6">
+    <!-- <b-row cols="2" cols-sm="3" cols-lg="6">
       <b-col class="mb-4 mb-lg-0">
         <b-card
           img-src="/material/mdf.jpg"
@@ -338,222 +263,116 @@
           <b-card-text>acier doux</b-card-text>
         </b-card>
       </b-col>
-    </b-row>
-
-    <div class="mt-5" />
-    <h3>Tableau des caractéristiques CNC PREMIUM ST</h3>
-    <b-row class="mt-4">
-      <b-col>
-        <b-row>
-          <b-col>
-            <table class="table table-hover table-sm">
-              <thead>
-                <tr>
-                  <th colspan="2">Table de coupe</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Dimension de table</td>
-                  <td>3000 x 2100mm</td>
-                </tr>
-                <tr>
-                  <td>Dimension de coupe</td>
-                  <td>2500 x 1850 x 150mm</td>
-                </tr>
-              </tbody>
-            </table>
-          </b-col>
-        </b-row>
-        <!-- table -2 -->
-        <b-row>
-          <b-col>
-            <table class="table table-hover table-sm">
-              <thead>
-                <tr>
-                  <th colspan="2">Broche d’origine Italienne</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Vitesse de rotation</td>
-                  <td>24000 tr/min</td>
-                </tr>
-                <tr>
-                  <td>Variateur de vitesse</td>
-                  <td>électronique commandé par logiciel</td>
-                </tr>
-                <tr>
-                  <td>Puissance</td>
-                  <td>3.3 KW / 4.4 HP</td>
-                </tr>
-                <tr>
-                  <td>Système de refroidissement</td>
-                  <td>Air</td>
-                </tr>
-              </tbody>
-            </table>
-          </b-col>
-        </b-row>
-        <!-- table 3 -->
-        <b-row>
-          <b-col>
-            <table class="table table-hover table-sm">
-              <thead>
-                <tr>
-                  <th colspan="2">Guidage et transmission</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Transmission</td>
-                  <td>
-                    2 Vis à bille ∅25mm sur l'axe X 1 Vis à bille ∅25mm sur
-                    l'axe Y 1 Vis à bille ∅16mm sur l'axe z
-                  </td>
-                </tr>
-                <tr>
-                  <td>Guidage</td>
-                  <td>Chariot à deux rangées de bille.</td>
-                </tr>
-              </tbody>
-            </table>
-          </b-col>
-        </b-row>
-        <!-- table 4 -->
-        <b-row>
-          <b-col>
-            <table class="table table-hover table-sm">
-              <thead>
-                <tr>
-                  <th colspan="2">Commande et drive</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Directeur d’axes</td>
-                  <td>
-                    Allemand supportant 4 axes ,commandant la vitesse de la
-                    broche, l'aspirateur et le watch dog (pour la sécurité).
-                  </td>
-                </tr>
-                <tr>
-                  <td>Drive</td>
-                  <td>
-                    3 drives de grande puissance (80VDC-8A) avec système de
-                    sécurité intégré (sur et sous-tension, sur-intensité)
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </b-col>
-        </b-row>
-      </b-col>
-      <!-- 2 col right -->
-      <b-col>
-        <b-row>
-          <b-col>
-            <table class="table table-hover table-sm">
-              <thead>
-                <tr>
-                  <th colspan="2">Système de bridge</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Type</td>
-                  <td>T-slot</td>
-                </tr>
-              </tbody>
-            </table>
-          </b-col>
-        </b-row>
-        <!-- table 2 -->
-        <b-row>
-          <b-col>
-            <table class="table table-hover table-sm">
-              <thead>
-                <tr>
-                  <th colspan="2">Alimentation secteur</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Voltage</td>
-                  <td>380V triphasé ou 220V monophasé</td>
-                </tr>
-                <tr>
-                  <td>Amperage</td>
-                  <td>max 16A-380V/ 25A-220V</td>
-                </tr>
-                <tr>
-                  <td>fréquence</td>
-                  <td>50-60Hz</td>
-                </tr>
-              </tbody>
-            </table>
-          </b-col>
-        </b-row>
-        <!-- table 3 -->
-        <b-row>
-          <b-col>
-            <table class="table table-hover table-sm">
-              <thead>
-                <tr>
-                  <th colspan="2">Données générales</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Châssis de la machine</td>
-                  <td>Aluminium traité et anodisé.</td>
-                </tr>
-                <tr>
-                  <td>Poids</td>
-                  <td>Environ 500Kg</td>
-                </tr>
-                <tr>
-                  <td>Dimensions generales</td>
-                  <td>3200x2450x1000mm</td>
-                </tr>
-                <tr>
-                  <td>Garantie</td>
-                  <td>1 an (cf. conditions pour chaque modèle)</td>
-                </tr>
-              </tbody>
-            </table>
-          </b-col>
-        </b-row>
-        <!-- table 4 -->
-        <b-row>
-          <b-col>
-            <table class="table table-hover table-sm">
-              <thead>
-                <tr>
-                  <th colspan="2">Extensions</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr colspan="2">
-                  <td>Quatrième axe</td>
-                </tr>
-                <tr colspan="2">
-                  <td>Changeur d'outils</td>
-                </tr>
-                <tr colspan="2">
-                  <td>Table a vide</td>
-                </tr>
-              </tbody>
-            </table>
-          </b-col>
-        </b-row>
-      </b-col>
-    </b-row>
+    </b-row> -->
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      text: 'ghgdhnmölm#ü',
+      collapses: [
+        {
+          header_text: 'Transmission',
+          text: ``,
+          icon: '/icons/vis_a_bille.png',
+          table: [
+            {
+              col_left: `Mouvement de l'axe X`,
+              col_right: '2 vis à billes de diamètre 25 mm'
+            },
+            {
+              col_left: `Mouvement de l'axe Y`,
+              col_right: `1 vis à billes de diamètre 25 mm`
+            },
+            {
+              col_left: `Mouvement de l'axe Z`,
+              col_right: `1 vis à billes de diamètre 16 mm`
+            }
+          ],
+          show: true
+        },
+        {
+          header_text: 'Électrobroches',
+          text: ``,
+          icon: '/icons/broche.gif',
+          table: [
+            {
+              col_left: `Broche synchrone Allemande`,
+              col_right: '1.8 kw, 23 500 tr/min'
+            },
+            {
+              col_left: `Broche asynchrone Italienne à haute fréquence`,
+              col_right: `9kw, 24 000 rpm (option de roulements en céramique)`
+            },
+            {
+              col_left: `Broche asynchrone Italienne à haute fréquence`,
+              col_right: `9kw, 24 000 rpm (option de roulements en céramique + changeur d’outils)`
+            }
+          ],
+          show: false
+        },
+        {
+          header_text: 'Table de travail/coupe',
+          text: ``,
+          icon: '/icons/table_coupe.png',
+          table: [
+            {
+              col_left: `Dimensions de table (standard) `,
+              col_right: '3000 X 2200 mm'
+            },
+            {
+              col_left: `Dimensions de coupe (standard) `,
+              col_right: `2500 X 1850 X 150 mm`
+            },
+            {
+              col_left: `Des dimensions personnalisées sont possibles `,
+              col_right: ``
+            }
+          ],
+          show: false
+        },
+        {
+          header_text: 'Armoire',
+          text: ``,
+          icon: '/icons/boitier.png',
+          table: [
+            {
+              col_left: `Alimentation`,
+              col_right: '76VDC-1000W'
+            },
+            {
+              col_left: `Armoire`,
+              col_right: `Vitrée IP55 avec ventilation forcée`
+            },
+            {
+              col_left: `Directeur d’axes`,
+              col_right: `supportant 4 axes (standard) `
+            },
+            {
+              col_left: `Protection`,
+              col_right: `fusibles à l’entrée et à la sortie de tous les composants électriques`
+            }
+          ],
+          show: false
+        }
+      ]
+    }
+  },
+  methods: {
+    openAll() {
+      this.collapses.forEach(collapse => {
+        collapse.show = true
+      })
+    },
+    closeAll() {
+      this.collapses.forEach(collapse => {
+        collapse.show = false
+      })
+    }
+  }
+}
 </script>
 
 <style>
@@ -586,5 +405,14 @@ export default {}
 .table th {
   background-color: #d9edf7;
   color: #0f3c6c;
+}
+
+@media (max-device-width: 576px) {
+  h1 {
+    font-size: 34px;
+  }
+  h3 {
+    font-size: 23px;
+  }
 }
 </style>
