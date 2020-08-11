@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'CADCAM Tunsie: Le CNC Spécialist',
+    title: 'CADCAM Tunisie: Le CNC Spécialist',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -69,7 +69,7 @@ export default {
       'nuxt-i18n',
       {
         baseUrl: 'https://cadcam.tn/',
-        seo: false, // see doc and layouts
+        seo: true, // see doc and layouts
 
         locales: [
           {
