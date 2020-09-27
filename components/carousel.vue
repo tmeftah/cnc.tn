@@ -28,7 +28,7 @@
         >
           <!-- Text slides with image -->
           <b-carousel-slide img-src="/cncpremium-ST--1024x568.WebP" />
-          <b-carousel-slide img-src="/cncpremium-ST--1024x568.WebP" />
+          <b-carousel-slide img-src="/cncpremium_pro_3d.png" />
         </b-carousel>
       </b-col>
     </b-row>
